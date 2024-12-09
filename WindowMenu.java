@@ -5,28 +5,28 @@ public class WindowMenu extends JFrame {
     JMenu menu_log, menu_need, menu_buy, menu_con, subMenu;
     JMenuItem item_in, item_out, item_over, item_mask, item_suit;
 
-    public WindowMenu() { // ÉèÖÃ²Ëµ¥Ìõ
+    public WindowMenu() { // è®¾ç½®èœå•æ¡  2024-12-09ä¿®æ”¹
         menubar = new JMenuBar();
-        menu_log = new JMenu("ÓÃ»§µÇÂ¼");
-        menu_need = new JMenu("Îï×ÊĞèÇó");
-        menu_buy = new JMenu("°¢ÀïÖ±²É");
-        menu_con = new JMenu("ÁªÏµÎÒÃÇ");
+        menu_log = new JMenu("ç”¨æˆ·ç™»å½•");
+        menu_need = new JMenu("ç‰©èµ„éœ€æ±‚");
+        menu_buy = new JMenu("é˜¿é‡Œç›´é‡‡");
+        menu_con = new JMenu("è”ç³»æˆ‘ä»¬");
         menubar.add(menu_log);
         menubar.add(menu_need);
         menubar.add(menu_buy);
         menubar.add(menu_con);
 
-        JMenuItem item_in = new JMenuItem("ÓÃ»§µÇÂ¼");
-        JMenuItem item_out = new JMenuItem("ÓÃ»§ÍË³ö");
+        JMenuItem item_in = new JMenuItem("ç”¨æˆ·ç™»å½•");
+        JMenuItem item_out = new JMenuItem("ç”¨æˆ·é€€å‡º");
         menu_log.add(item_in);
         menu_log.add(item_out);
 
-        JMenuItem item_over = new JMenuItem("¸ÅÀÀ");
-        JMenuItem item_mask = new JMenuItem("·ÀÒß¿ÚÕÖ");
-        JMenuItem item_suit = new JMenuItem("·À»¤·ş");
+        JMenuItem item_over = new JMenuItem("æ¦‚è§ˆ");
+        JMenuItem item_mask = new JMenuItem("é˜²ç–«å£ç½©");
+        JMenuItem item_suit = new JMenuItem("é˜²æŠ¤æœ");
         menu_need.add(item_over);
         menu_need.addSeparator();
-        menu_need.add(item_mask); // ÔÚ¸ÅÀÀºÍ·ÀÒß¿ÚÕÖÖ®¼ä²åÈë·Ö¸îÏß
+        menu_need.add(item_mask); // åœ¨æ¦‚è§ˆå’Œé˜²ç–«å£ç½©ä¹‹é—´æ’å…¥åˆ†å‰²çº¿
         menu_need.add(item_suit);
         setJMenuBar(menubar);
 
